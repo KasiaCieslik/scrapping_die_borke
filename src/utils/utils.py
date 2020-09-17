@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[12]:
+
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -9,9 +9,9 @@ from dateutil import parser
 import re
 import pandas as pd
 import os.path
+import sqlite3
 
 
-# In[123]:
 
 def extract_float_from_string(string):
     l = [float(x) for x in re.findall("\d+\.\d+", string)]
@@ -20,14 +20,12 @@ def extract_float_from_string(string):
     else:
         return l
 
-url = 'https://www.surf-und-segelschule-mueggelsee.de/?Wetterdaten'
 
 def download_weather_data(url):
     response = requests.get(url) # 
     html = response.content
     scraped = BeautifulSoup(html,'html.parser')
     return scraped
-
 
 # In[125]:
 
@@ -45,41 +43,42 @@ def parse_data(scraped):
     mapping['luftdruck'] = extract_float_from_string(d[6])
     return mapping
 
+def create_db(database_name):
+    connection = sqlite3.connect(database_name)
+    cursor = connection.cursor()
+    #cursor.execute('DROP TABLE IF EXISTS weather')
+    sql_command = """CREATE TABLE IF NOT EXISTS weather (
+    id INTEGER PRIMARY KEY,
+    lastupdate DATETIME,
+    temp REAL,
+    wind REAL,
+    boen REAL,
+    niederschlag REAL,
+    feuchte REAL,
+    luftdruck REAL)"""
 
-# In[127]:
+    cursor.execute(sql_command)
+    connection.close()
+    
+def insert_to_db_table(mapping,database_name):
+    connection = sqlite3.connect(database_name)
+    cursor = connection.cursor()
+    sql_command = """INSERT INTO weather 
+    (lastupdate, temp, wind, boen, 
+    niederschlag, feuchte, luftdruck) 
+    VALUES (:lastupdate,:temp,:wind,:boen,
+    :niederschlag,:feuchte,:luftdruck)"""
 
-def save_data(mapping,file_name=r'C:\Users\kk\Documents\Python Projects\scrapping_die_borke\results\weather.csv'):
-    mapping_csv = pd.DataFrame.from_records([mapping])
-    if os.path.isfile(file_name):
-        mapping_csv.to_csv(file_name,mode='a',header=None)
-    else:
-        mapping_csv.to_csv(file_name,mode='a')
+    cursor.execute(sql_command,mapping)
+    connection.commit()
+    connection.close()
 
-
-# In[129]:
-
-
-def get_data(url):
+def get_data(url,database_name):
     scraped = download_weather_data(url)
     mapping = parse_data(scraped)
-    save_data(mapping)
+    insert_to_db_table(mapping,database_name)
+    
 
-
-while True:
-    get_data(url)
-    time.sleep(60)
-
-
-# In[132]:
-
-
-#import time
-#while True:
- #   try:
-  #  get_data(url)
-   # time.sleep(60*10)
-    #except Exception as e:
-     #   print("File not accessible",e)
 
 
 

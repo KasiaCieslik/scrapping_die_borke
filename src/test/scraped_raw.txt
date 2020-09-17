@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<head>
+<link href="/_icons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/_icons/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="/_icons/favicon.png" rel="icon" type="image/png"/>
+<link href="./_icons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+<link href="./_icons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+<link href="./_icons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="./_icons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="./_icons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+<link href="./_icons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="./_icons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="./_icons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="./_icons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="./_icons/_iconsandroid-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="./_icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="./_icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="./_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="./_icons/manifest.json" rel="manifest"/>
+<meta content="#ffffff" name="msapplication-TileColor"/>
+<meta content="./_icons/ms-icon-144x144.png" name="msapplication-TileImage"/>
+<meta content="#0089bc" name="theme-color"/>
+<meta content="#0089bc" name="msapplication-navbutton-color"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<link href="https://plus.google.com/+SurfuSegelschuleM%C3%BCggelseeBerlin" rel="publisher">
+<meta content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" name="viewport"/>
+<meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+<title>Wetter und Wind an der Borke am Müggelsee.</title>
+<meta content="index,follow" name="robots"/>
+<meta content="Surf- und Segelschule Müggelsee" name="author"/>
+<meta content="Berlin, Köpenick, Müggelsee, Wetter, wind, Daten, Messstation, Bootsführerschein, SBF Binnen, Sportbootführerscheine Binnen, Sportbootführerschein See, Funkscheine, Bootsführerscheine, Surfschule, Bootsverleih, Motorboote, Segelboote, Schulung, Verleih, Windsurfen, Katamaran, Bootsfahrschule, Motorbootführerschein, Segelbootführerschein" name="keywords"/>
+<meta content="Wetter und Wind: Aktuelle Wetterdaten der Messstation an der Borke am Müggelsee." name="description"/>
+<link href="/?Verleih/Surfverleih" rel="prev"/><link href="/?Bilder" rel="next"/><link href="./assets/css/xhstyles.css" rel="stylesheet" type="text/css"/>
+<script src="./plugins/jquery/lib/jquery/1.12.4/jquery.min.js"></script>
+<script src="./plugins/jquery/lib/migrate/jquery-migrate-1.4.1.min.js"></script>
+<link href="./templates/surfsegel_new/stylesheet.css" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link href="./templates/surfsegel_new/style.css" media="screen" rel="stylesheet"/>
+<!--[if lte IE 7]><link rel="stylesheet" href="./templates/surfsegel_new/style.ie7.css" media="screen" /><![endif]-->
+<link href="./templates/surfsegel_new/style.responsive.css" media="all" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin" rel="stylesheet" type="text/css"/>
+<link href="./templates/surfsegel_new/pace.css" media="all" rel="stylesheet"/>
+<script src="./templates/surfsegel_new/pace.js" type="text/javascript"></script>
+<script src="./templates/surfsegel_new/script.js" type="text/javascript"></script>
+<script src="./templates/surfsegel_new/script.responsive.js" type="text/javascript"></script>
+<style>.tbis-content .tbis-postcontent-0 .layout-item-old-0 { border-top-width:1px;border-top-style:dotted;border-top-color:#CED1B8;margin-top: 10px;margin-bottom: 10px;  }
+	.tbis-content .tbis-postcontent-0 .layout-item-old-1 { padding-right: 10px;padding-left: 10px;  }
+	.tbis-content .tbis-postcontent-0 .layout-item-old-2 { border-right-style:dotted;border-right-width:1px;border-right-color:#CED1B8; padding-right: 10px;padding-left: 10px;  }
+	.ie7 .tbis-post .tbis-layout-cell {border:none !important; padding:0 !important; }
+	.ie6 .tbis-post .tbis-layout-cell {border:none !important; padding:0 !important; }
+	</style>
+<meta content="6nIT-O1LuXm7clKrxMAqq45BksJ7aO45dLfRCdUH44Y" name="google-site-verification">
+<meta content="Dienstleistung" name="page-topic"/>
+<meta content="14 days" name="revisit-after"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" rel="stylesheet" type="text/css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "Um unsere Internetseiten nutzerfreundlicher und effektiver zu gestalten, verwenden wir Cookies zur Bereitstellung unserer Dienste.\nMit der Nutzung unserer Webseite erklären Sie sich damit einverstanden.",
+    "dismiss": "Ok, verstanden",
+    "link": "Mehr Infos",
+    "href": "https://www.surf-und-segelschule-mueggelsee.de/?Kontaktinformationen/Datenschutz"
+  }
+})});
+</script>
+<link href="/opensearch.xml" rel="search" title="SuSSM+Borke" type="application/opensearchdescription+xml"/>
+</link></meta></link></head>
+<body id="body" onload="">
+<div id="top"><a id="TOP"></a></div>
+<div id="tbis-main">
+<div class="tbis-sheet clearfix">
+<nav class="tbis-nav">
+<ul class="tbis-hmenu">
+<li class=""><a href="/"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Willkommen</a></li>
+<li class=""><a href="/?Die-Borke"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Die Borke</a>
+<ul class="active">
+<li class=""><a href="/?Die-Borke/Suppenbar"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Suppenbar</a></li>
+<li class=""><a href="/?Die-Borke/Feiern-an-der-Borke"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Feiern an der Borke</a></li>
+</ul>
+</li>
+<li class=""><a href="/?Schulung"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Schulung</a>
+<ul class="active">
+<li class=""><a href="/?Schulung/Surfschule"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Surfschule</a></li>
+<li class=""><a href="/?Schulung/Katamaran-segeln"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Katamaran segeln</a></li>
+<li class=""><a href="/?Schulung/Downloads"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Downloads</a></li>
+<li class=""><a href="/?Schulung/Bootsfuehrerscheine"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Bootsführerscheine</a>
+<ul class="active">
+<li class=""><a href="/?Schulung/Bootsfuehrerscheine/Bootsfuehrerscheine-Binnen"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Bootsführerscheine Binnen</a></li>
+<li class=""><a href="/?Schulung/Bootsfuehrerscheine/Bootsfuehrerschein-See"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Bootsführerschein See</a></li>
+<li class=""><a href="/?Schulung/Bootsfuehrerscheine/SKS-Sportkuestenschifferschein"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>SKS - Sportküstenschifferschein</a></li>
+<li class=""><a href="/?Schulung/Bootsfuehrerscheine/Termine"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Termine</a></li>
+</ul>
+</li>
+<li class=""><a href="/?Schulung/Knotenkunde"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Knotenkunde</a>
+<ul class="active">
+<li class=""><a href="/?Schulung/Knotenkunde/Achtknoten"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Achtknoten</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Klampe-belegen"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Klampe belegen</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Kreuzknoten"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Kreuzknoten</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Palstek"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Palstek</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Roringstek"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Roringstek</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Schotstek"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Schotstek</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Doppelter-Schotstek"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Doppelter Schotstek</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Stopperstek"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Stopperstek</a></li>
+<li class=""><a href="/?Schulung/Knotenkunde/Webeleinstek"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Webeleinstek</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="/?Verleih"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Verleih</a>
+<ul class="active">
+<li class=""><a href="/?Verleih/Bootsverleih"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Bootsverleih</a></li>
+<li class=""><a href="/?Verleih/Surfverleih"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Surfverleih</a></li>
+</ul>
+</li>
+<li class=""><a href="/?Bilder"><span style="color:#D40128;font-size:16px;padding-right:3px;">■</span>Bilder</a></li>
+</ul>
+</nav>
+<header class="tbis-header">
+</header>
+<div class="tbis-layout-wrapper">
+<div class="tbis-content-layout">
+<div class="tbis-content-layout-row" id="wrapper">
+<div class="tbis-layout-cell tbis-sidebar1" id="eins">
+<div class="tbis-vmenublock clearfix">
+<div class="tbis-vmenublockcontent">
+<img alt="Neil Pride" src="./templates/surfsegel_new/images//Logo-Neilpride-transparent-mit-Schein.png" style="float: left;padding-top: 15px" title="Neil Pride" width="125"/>
+<img alt="Logo JP" src="./templates/surfsegel_new/images//Logo-JP-transparent-mit-Schein.png" style="float: left;" title="LOGO JP" width="95"/>
+</div>
+<div class="tbis-vmenublockcontent">
+<a href="http://www.vdws.de" target="_blank" title="VDWS"><img alt="VDWS LOGO" src="./templates/surfsegel_new/images//Logo-VDWS-transparent-mit-Schein.png" style="float: right;" title="VDWS" width="112"/></a>
+<a href="?Kontaktinformationen/Links/QAW" title="QAW"><img alt="QAW" src="./templates/surfsegel_new/images//QAW_LOGO.png" style="position: absolute;top: 80px; left: 22px;" title="QAW" width="108"/></a>
+</div>
+</div>
+<div class="tbis-block clearfix" style="padding-top: 0px;">
+<div class="tbis-blockcontent">
+<div>
+<form action="/" class="tbis-search" method="post">
+<input class="text" name="search" size="12" type="text"/>
+<input name="function" type="hidden" value="search"/>
+<br/> <input class="submit" type="submit" value="Suchen"/>
+</form>
+</div>
+</div>
+</div>
+<div class="tbis-block clearfix">
+<div class="tbis-blockcontent">
+<fieldset style="border: 1px solid #ffffff;border-radius: 4px;"><legend style="font-size: 13px;font-weight: bold;color: rgb(255, 255, 255);">Aktuelles Wetter</legend><table style="width:100%;background-image:url(weather/forecast.png); background-position:right 0px; background-repeat:no-repeat;margin: 0 auto;">
+<tr><th colspan="2" style="align:center;color: #ffffff;">Diese Daten stammen von unser eigenen Wetterstation.</th></tr>
+<tr><td><b>Sunset: </b></td><td><b>19:18</b></td></tr>
+<tr><td><b>Temp: </b></td><td><b>21.4 °C</b></td></tr>
+<tr><td><b>Wind: </b></td><td><b>9.5 kn =&gt; NNW</b></td></tr>
+<tr><td colspan="2" style="text-align:center;padding-top:5px;padding-bottom:5px;">
+<a href="./?Wetterdaten" style="color: #ffffff;font-family: Verdana,Geneva,Arial,Helvetica,Sans-Serif;" target="_parent">Hier findet Ihr alle Wetterdaten</a><br/>
+<a href="https://www.windfinder.com/forecast/mueggelsee_ostufer" style="color: #ffffff;font-family: Verdana,Geneva,Arial,Helvetica,Sans-Serif;font-size:10px;padding-top:5px;" target="_blank">Unser Wetter bei Windfinder</a>
+</td></tr></table></fieldset>
+</div>
+</div>
+<div class="tbis-block clearfix">
+<div class="tbis-blockcontent">
+<div>
+<fieldset style="border: 1px solid #ffffff; border-radius: 4px;"><legend style="font-size: 13px; font-weight: bold; color: #ffffff;">Kontakt</legend>
+<p style="font-size: small; text-align: center;"><strong>Surf-und Segelschule Müggelsee</strong><br/> Fürstenwalder Damm 838<br/> 12589 Berlin</p>
+<p style="font-size: small; text-align: center;"><a href="?Kontaktinformationen/Anfahrt" title="Anfahrt"><strong><span style="text-decoration: underline;">So findet Ihr zu uns</span></strong></a></p>
+<p style="font-size: small; text-align: center;"><strong>Tel.Nr:</strong></p>
+<p style="text-align: center; font-size: small;"><a href="tel:+49306481580"><strong>030/648 15 80</strong></a></p>
+<p style="text-align: center; font-size: small;">oder schreibt uns eine</p>
+<p style="text-align: center;"><a href="?mailform"><span style="font-size: medium;"><strong>email</strong></span></a></p>
+</fieldset>
+</div>
+</div>
+</div>
+<div class="tbis-block clearfix" style="padding-top: 10px">
+<div class="tbis-blockcontent">
+<p style="width: 100%; margin: 0; padding: 0;">  <a href="https://www.facebook.com/surfschule.segelschule.berlin.mueggelsee" rel="noopener" target="_blank"><img alt="Surf und Segelschule bei Facebook" src="userfiles/images/visitusnowonfacebook.jpg" style="border: none; margin: 0;" title="Surf und Segelschule bei Facebook" width="100%"/></a></p>
+<p style="width: 100%; margin: 0; padding: 0;"> </p>
+<p style="width: 100%; margin: 0; padding: 0;"><a href="https://www.youtube.com/c/SurfundsegelschulemueggelseeDE" rel="noopener" target="_blank"><img alt="Youtube Kanal der Surf und Segelschule" src="userfiles/images/YouTube_Kanal_SurfSegelMueggelsee.png" style="border: none; margin: 0;" title="Youtube Kanal der Surf und Segelschule" width="100%"/></a></p>
+</div>
+</div>
+</div>
+<div class="tbis-layout-cell tbis-content" id="zwei">
+<article class="tbis-post tbis-article">
+<div class="tbis-postcontent tbis-postcontent-0 clearfix">
+<div class="tbis-content-layout">
+<div class="tbis-content-layout-row">
+<div class="tbis-layout-cell layout-item-old-1">
+<h1>Aktuelle Wetterdaten </h1>
+<div></div>
+<table>
+<tr style="padding:0;margin:0;color:#666666"><th colspan="2">Letzte Aktualisierung: 16.09.2020 22:08:21</th></tr>
+<tr><td style="color:#666666">Sonnenuntergang: </td><td style="color:#666666">19:18</td></tr>
+<tr><td style="color:#666666">Temperatur: </td><td style="color:#666666">21.4 °C</td></tr>
+<tr><td style="color:#666666">Wind / Böen: </td><td style="color:#666666">9.5 / 17.3 kn =&gt; NNW</td></tr>
+<tr><td style="color:#666666">Niederschlag: </td><td style="color:#666666">0.0 mm</td></tr>
+<tr><td style="color:#666666">Feuchte: </td><td style="color:#666666">74 %</td></tr>
+<tr><td style="color:#666666">Luftdruck: </td><td style="color:#666666">1018.1 hPa</td></tr>
+<tr><td style="color:#666666">Vorhersage: </td><td style="color:#666666">Meist heiter und kälter.</td></tr>
+</table>
+<p> </p>
+<div style="text-align: center;color:#666666"> <strong>BITTE AUSWÄHLEN:</strong>
+<div class="switch-field" style="display: table;margin: 0 auto;">
+<input id="switch_3_left" name="switch_3" onchange="toggletriestate();" type="radio">
+<label for="switch_3_left">letzen 60min</label>
+<input checked="" id="switch_3_center" name="switch_3" onchange="toggletriestate();" type="radio">
+<label for="switch_3_center">letzten 24h</label>
+<input id="switch_3_right" name="switch_3" onchange="toggletriestate();" type="radio">
+<label for="switch_3_right">letzter Monat</label>
+</input></input></input></div>
+<!--div class="onoffswitch" style="display: table;margin: 0 auto;">
+	<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked="">
+	<label class="onoffswitch-label" for="myonoffswitch" onclick="toggle();">
+		<span class="onoffswitch-inner"></span>
+		<span class="onoffswitch-switch"></span>
+	</label>
+</div-->
+</div>
+<p> </p>
+<canvas id="chart"></canvas>
+<canvas id="chart2"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.4.0/dist/chartjs-plugin-datalabels.min.js" type="text/javascript"></script>
+<script src="./weather/chartsconfig.js" type="text/javascript"></script>
+<style>
+    .onoffswitch {
+        position: relative; width: 156px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        display: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #999999; border-radius: 18px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 34px; padding: 0; line-height: 34px;
+        font-size: 15px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "letzten 24h";
+        padding-right: 18px;
+        background-color: #0089bc; color: #FFFFFF;
+    }
+    .onoffswitch-inner:after {
+        content: "letzter Monat";
+        padding-right: 8px;
+        background-color: #0089bc; color: #FFFFFF;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 28px; margin: 3px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 118px;
+        border: 2px solid #999999; border-radius: 18px;
+        transition: all 0.3s ease-in 0s; 
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px; 
+    }
+</style>
+<style>
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+	float: left;
+  display: inline-block;
+  width: 100px;
+  background-color: #7cc3d7;
+  color: rgba(0, 0, 0, 0.6);
+	color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: none;
+  padding: 6px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #0089bc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+</style>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="tbis-layout-cell tbis-sidebar2" id="drei">
+</div>
+</div>
+</div>
+</div>
+<footer class="tbis-footer">
+<div class="tbis-content-layout-wrapper layout-item-0">
+<div class="tbis-content-layout">
+<div class="tbis-content-layout-row">
+<div class="tbis-layout-cell layout-item-1" style="width: 33%">
+<!-- YOU ARE NOT ALLOWED TO REMOVE OR HIDE OR CHANGE THIS copyright LINK(s) -->
+<p style="padding-top:5px;text-align: center;">
+<a href="http://torsten-behrens.de/" style="color: #c5002d; font-size:8pt" target="_blank">Template by Torsten Behrens (modifiziert)</a><br>
+<a href="./?login" style="color: #c5002d; font-size:8pt">Login</a></br></p>
+<!-- IF REMOVE OR HIDE OR CHANGE: Pay for a license - see http://torsten-behrens.de/?Preise   -->
+</div>
+<div class="tbis-layout-cell layout-item-1" style="width: 34%">
+<p style="width: 90%;padding-top:5px;text-align: center;">Copyright © 2020</p>
+</div>
+<div class="tbis-layout-cell layout-item-2" style="width: 45%">
+<p style="padding-top:5px;text-align: center;"><a href="./?Kontaktinformationen/Impressum">Impressum</a>  |  <a href="./?Kontaktinformationen/Datenschutz">Datenschutz</a>  |  <a href="./?Kontaktinformationen/Team">Team</a>  |  <a href="/?&amp;sitemap">Inhaltsverzeichnis</a></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<p class="tbis-page-footer">
+<span id="tbis-footnote-links">&lt;&lt; <a href="/?Verleih/Surfverleih" rel="prev">Surfverleih</a> |	 <a href="#TOP">Seitenanfang</a> | <a href="/?Bilder" rel="next">Bilder &gt;&gt;</a></span>
+</p>
+</div>
+</body>
